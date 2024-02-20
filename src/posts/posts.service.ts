@@ -11,21 +11,10 @@ export class PostsService {
   private posts: Post[] = [];
 
   constructor() {
-    // Agregar algunos posts de prueba al iniciar la aplicación
     this.createPost({
       id: uuidv4(),
-      title: 'Post 1',
-      content: 'Contenido del post 1',
-    });
-    this.createPost({
-      id: uuidv4(),
-      title: 'Post 2',
-      content: 'Contenido del post 2',
-    });
-    this.createPost({
-      id: uuidv4(),
-      title: 'Post 3',
-      content: 'Contenido del post 3',
+      title: 'El tiempo jamas regresa, a quien se lo dedicas?',
+      content: 'he pensado tanto en esta premisa, que ahora yo quiero saber lo que ustedes piensan.',
     });
   }
 
